@@ -26,6 +26,12 @@ if you are on linux. These will set up your directory structures.
 In order to make a new user account, add a directory to the Users folder on the server containing a file called user_chats.txt. Then on the client side,
 go to the UserData folder and put the name of the user you created in the user.txt folder making sure there are no whitespaces (super secure right?).
 
+### Notes ###
+
+This version of talkative (V1.1) is **not secure**. There is no encryption, no user security, server security or request security. **The server has no idea
+if a request is dangerous, if the request is edited it could change, or delete, any file on the server if ran with permissions!** In future versions this may
+be changed but for now be weary. There are also currently no character limits on user input so be carefull!
+
 
 ## How it works ##
 
