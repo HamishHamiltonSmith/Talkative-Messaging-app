@@ -29,6 +29,8 @@ go to the UserData folder and put the name of the user you created in the user.t
 
 ## How it works ##
 
+Here is the cool stuff if you are interested
+
 ### Front-end ###
 
 As mentioned earlier, javax.swing was used to create the GUI for the app. Here is a breakdown of what it looks like.
