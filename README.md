@@ -7,6 +7,8 @@ messaging app functionality like chat creation and deletion + messaging. Making 
 modern messaging apps, even a basic one like this took a good few months. 
 
 
+![logo](https://github.com/HamishHamiltonSmith/Talkative-Messaging-app/blob/main/info-images/logo.png)
+
 
 
 ## How it works ##
