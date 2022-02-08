@@ -2,12 +2,12 @@
 
 
 
+![logo](https://github.com/HamishHamiltonSmith/Talkative-Messaging-app/blob/main/info-images/logo.png)
+
 A GUI based messaging app built with java (swing). It includes user profiles with bios and images along with standard
 messaging app functionality like chat creation and deletion + messaging. Making this really taught me how much goes into
 modern messaging apps, even a basic one like this took a good few months. 
 
-
-![logo](https://github.com/HamishHamiltonSmith/Talkative-Messaging-app/blob/main/info-images/logo.png)
 
 
 
