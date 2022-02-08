@@ -11,11 +11,23 @@ modern messaging apps, even a basic one like this took a good few months.
 
 
 
+
+
+## Download instructions ##
+
+
+### Basic setup ###
+
+If you want to try out the app for yourself, you will need to download run the build files for both client and server. This will most likely only work
+if you are on linux. These will set up your directory structures.
+
+### Making a user account ###
+
+In order to make a new user account, add a directory to the Users folder on the server containing a file called user_chats.txt. Then on the client side,
+go to the UserData folder and put the name of the user you created in the user.txt folder making sure there are no whitespaces (super secure right?).
+
+
 ## How it works ##
-
-
-
-
 
 ### Front-end ###
 
@@ -55,7 +67,3 @@ users within the chat, it will remove the chats path from them, the chat file wi
 For bio and profile-pic updates no networking was needed due to them being stored locally.
 
 
-## Download instructions ##
-
-
-If you want to try out the app for yourself, you will need to run the build files for both client and server. Then start up the server, followed by the client. If the build fails then you may run into dificultys setting things up manually as a fair amount of infastructure is needed for this to work, however technically the client script will run with no prior setup, you will just get a lot of error windows! 
