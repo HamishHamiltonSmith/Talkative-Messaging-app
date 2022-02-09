@@ -15,12 +15,13 @@ if not os.path.exists("/usr/share/Talkative"):
 
 os.system("mkdir /usr/share/Talkative/client/")
 os.system("mkdir /usr/share/Talkative/client/UserData")
+os.system("mkdir /usr/share/Talkative/client/src")
 
 #Transfer files and src dir
-os.system("touch /usr/share/Talkative/client/UserData/user.txt")
-f = open("/usr/share/Talkative/client/UserData/user.txt",'w')
+os.system("touch /usr/share/Talkative/Client/UserData/user.txt")
+f = open("/usr/share/Talkative/Client/UserData/user.txt",'w')
 f.write("DefaultUser1")
 f.close()
 
-os.system("mv ~/Downloads/Talkative/Src /usr/share/Talkative/client")
+os.system("mv ~/Downloads/Talkative/src/client/* /usr/share/Talkative/client/src")
 
