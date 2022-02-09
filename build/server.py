@@ -27,6 +27,6 @@ x = str(input("Press enter to begin: "))
 
 
 os.system("mv ~/Downloads/Talkative/src/server/* /usr/share/Talkative/server/src")
-os.system("touch /usr/share/Talkative/src/server/users/DefaultUser1/user_chats.txt")
+os.system("touch /usr/share/Talkative/server/users/DefaultUser1/user_chats.txt")
 
 
