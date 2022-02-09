@@ -13,7 +13,7 @@ for p in paths:
         if paths.index(p) == 0:
             continue
         else:
-            print(f"[+] Found existing directory: {path}, overwriting")
+            print(f"[+] Found existing directory: {p}, overwriting")
             os.system(f"rm -r {p}")
             os.system(f"mkdir {p}")
     else:
