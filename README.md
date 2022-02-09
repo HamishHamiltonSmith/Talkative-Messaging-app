@@ -19,12 +19,12 @@ modern messaging apps, even a basic one like this took a good few months.
 ### Basic setup ###
 
 If you want to try out the app for yourself, you will need to download run the build files for both client and server. This will most likely only work
-if you are on linux. These will set up your directory structures.
+if you are on linux and with root permissions. 
 
 ### Making a user account ###
 
-In order to make a new user account, add a directory to the Users folder on the server containing a file called user_chats.txt. Then on the client side,
-go to the UserData folder and put the name of the user you created in the user.txt folder making sure there are no whitespaces (super secure right?).
+In order to make a new user account, add a directory to the Users folder on the server containing a file called *user_chats.txt*. Then on the client side,
+go to the UserData folder and put the name of the user you created in the *user.txt* folder making sure there are no whitespaces (super secure right?).
 
 ### Notes ###
 
