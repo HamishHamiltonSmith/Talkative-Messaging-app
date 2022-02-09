@@ -6,7 +6,7 @@ import os
 print("[+] Ready to set up directorys, any existing talkative infuastructure shall be overwritten...")
 x = str(input("Press enter to begin: "))
 
-paths = ["/usr/share/Talkative","/usr/share/Talkative/server/users","/usr/share/Talkative/server/users/DefaultUser1","/usr/share/Talkative/server/Chats","/usr/share/Talkative/server/src"]
+paths = ["/usr/share/Talkative","/usr/share/Talkative/server","/usr/share/Talkative/server/users","/usr/share/Talkative/server/users/DefaultUser1","/usr/share/Talkative/server/Chats","/usr/share/Talkative/server/src"]
 
 for p in paths:
     if os.path.exists(p):
