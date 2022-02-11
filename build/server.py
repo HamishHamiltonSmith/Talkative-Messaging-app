@@ -3,7 +3,7 @@ import os
 
 #Set up directory structure
 
-print("[+] Ready to set up directorys, any existing talkative infuastructure shall be overwritten...")
+print("[+] Ready to set up directorys, any existing talkative server infuastructure shall be overwritten...")
 x = str(input("Press enter to begin: "))
 
 paths = ["/usr/share/Talkative","/usr/share/Talkative/server","/usr/share/Talkative/server/users","/usr/share/Talkative/server/users/DefaultUser1","/usr/share/Talkative/server/chats","/usr/share/Talkative/server/src"]
