@@ -4,7 +4,7 @@
 
 ![logo](https://github.com/HamishHamiltonSmith/Talkative-Messaging-app/blob/main/info-images/logo.png)
 
-A GUI based messaging app built with java (swing). It includes user profiles with bios and images along with standard
+A GUI based messaging app built with java (swing) for linux distrubutions. It includes user profiles with bios and images along with standard
 messaging app functionality like chat creation and deletion + messaging. Making this really taught me how much goes into
 modern messaging apps, even a basic one like this took a good few months. 
 
@@ -18,18 +18,26 @@ modern messaging apps, even a basic one like this took a good few months.
 
 ### Basic setup ###
 
-If you want to try out the app for yourself, you will need to download run the build files for both client and server. This will most likely only work
-if you are on linux and with root permissions. 
+If you want to try out the app for yourself, you will need to first clone this repository. Before doing anything be sure to extract the zip file and **make sure the resulting folder is called Talkative**. You then want to navigate to the build files (Talkative/build) and run them.
 
-### Making a user account ###
+```sudo python3 client.py```
+```sudo python3 server.py```
 
-In order to make a new user account, add a directory to the Users folder on the server containing a file called *user_chats.txt*. Then on the client side,
-go to the UserData folder and put the name of the user you created in the *user.txt* folder making sure there are no whitespaces (super secure right?).
+
+One sets up the server and one the client though you can run them both to use Talkative on your machine. This will most likely only work with root permissions.
+You will be asked the path to the directory that the Talkative folder is in for both builds. Now this is done, you simply need to run the java files. The path to the two main files are:
+
+Server - /usr/share/Talkative/server/src/Main.java
+
+Client - /usr/share/Talkative/client/src/Main.java
+
+I would recomend opening these up in a code editor like vs code to run them. **You must run both files with root permissions** and remember that to use the client you must first start the server. **The client will attempt to connect to a talkative server on your machine. You will have to edit the IP in the client code if you want to connect to a diferent machine.**
+ 
 
 ### Notes ###
 
-This version of talkative (V1.1) is **not secure**. There is no encryption, no user security, server security or request security. **The server has no idea
-if a request is dangerous, if the request is edited it could change, or delete, any file on the server if ran with permissions!** In future versions this may
+This version of talkative (V1.1) is **not secure!** There is no encryption, no user security, server security or request security. **The server has no idea
+if a request is dangerous, if the request is edited it could change or delete, any file on the server if ran with permissions!** In future versions this may
 be changed but for now be weary. There are also currently no character limits on user input so be carefull!
 
 
@@ -39,8 +47,8 @@ Here is the cool stuff if you are interested
 
 ### Front-end ###
 
-As mentioned earlier, javax.swing was used to create the GUI for the app. Here is a breakdown of what it looks like.
-Here is a summary or where you can find their code:
+As mentioned earlier, javax.swing was used to create the GUI for the app.
+Here is a summary or where you can find client page code:
 
 
 - Home screen (gui_main.java): displays chats and other options
