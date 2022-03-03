@@ -35,5 +35,10 @@ f = open("/usr/share/Talkative/client/UserData/user.txt",'w')
 f.write("DefaultUser1")
 f.close()
 
+os.system("touch /usr/share/Talkative/client/UserData/user_bio.txt")
+f = open("/usr/share/Talkative/client/UserData/user_bio.txt",'w')
+f.write("No bio set!")
+f.close()
+
 os.system(f"mv {downloadPath}/Talkative/src/client/* /usr/share/Talkative/client/src")
 
