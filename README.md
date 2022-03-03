@@ -54,9 +54,9 @@ Here is a summary or where you can find client page code:
 - Home screen (gui_main.java): displays chats and other options
 - Chat screen (gui_main.java): displays chat messages and allows them to be written
 - Profile screen (Profile.java): displays a summary of the user profile
-- Bio edit (Bio_edit.java): a simple text editor
-- Picture edit (create_new.java): a file system for selecting a user picture
-- Create new Screen (create_new.java): contains search boxes and text boxes for chat creation
+- Bio edit (BioEdit.java): a simple text editor
+- Picture edit (createNew.java): a file system for selecting a user picture
+- Create new Screen (createNew.java): contains search boxes and text boxes for chat creation
 - Error messages (Error.java): display software errors
 
 
