@@ -73,7 +73,7 @@ the file, encryption could also easily be added to this.
 
 **Chat and profile management**
 
-When a user creates a chat, they specify the name and users to add. To add users they must search for them. The way this is done is horifically ineficent at
+When a user creates a chat, they specify the name and users to add. To add users they must search for them. The way this is done is horrifically inefficient at
 the moment... A FETCH request to the server returns a list of all users (see what I mean), a linear search is then conducted, the results of which are
 given as options to the user. Once the create button is pressed, a CREATE request is sent, from this a new chat file will be added, a header will be written to it containing the names of all users in it. The users who have been added to the chat will have their user_chats file updated to contain the new chat path.
 
